@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useContext } from "react";
 import { PortfolioContext } from "../store/PortfolioContext";
+import heroImage from "../assets/hero2.svg";
 
 export default function Home() {
   const { setTab } = useContext(PortfolioContext);
@@ -62,11 +63,7 @@ export default function Home() {
         </div>
 
         <div className=" max-xl:w-[100%] w-[50%]">
-          <img
-            src="/src/assets/hero2.svg"
-            alt=""
-            className="min-md:h-[500px]  w-[100%]"
-          />
+          <img src={heroImage} alt="" className="min-md:h-[500px]  w-[100%]" />
         </div>
       </div>
     </div>
