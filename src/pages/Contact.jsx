@@ -120,7 +120,7 @@ export default function Contact() {
                   required
                   ref={nameEle}
                   placeholder="John Deo"
-                  className="w-[250px] max-lg:w-[350px] h-[40px] px-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
+                  className="w-[250px] max-lg:w-[320px] h-[40px] px-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
                 />
               </div>
               <div className="flex flex-col gap-[10px]">
@@ -136,7 +136,7 @@ export default function Contact() {
                   required
                   ref={emailEle}
                   placeholder="john@example.com"
-                  className="w-[250px] max-lg:w-[350px] h-[40px] px-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
+                  className="w-[250px] max-lg:w-[320px] h-[40px] px-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
                 />
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function Contact() {
                 required
                 ref={subjectEle}
                 placeholder="How can I help you?"
-                className="w-[520px] max-lg:w-[350px] h-[40px] px-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
+                className="w-[520px] max-lg:w-[320px] h-[40px] px-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
               />
             </div>
             <div className="flex flex-col gap-[10px]">
@@ -168,7 +168,7 @@ export default function Contact() {
                 id="message"
                 ref={messageEle}
                 placeholder="Write Message..."
-                className="w-[520px] max-lg:w-[350px] h-[100px] p-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
+                className="w-[520px] max-lg:w-[320px] h-[100px] p-[10px] rounded-xl  border-[1px] border-[#94a3b8] outline-none text-white"
               ></textarea>
             </div>
             <button className="h-[40px] px-[25px] bg-[rgb(145,75,241)] text-xl cursor-pointer text-white rounded-2xl">

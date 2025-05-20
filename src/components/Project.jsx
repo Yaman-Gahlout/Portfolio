@@ -3,7 +3,7 @@ export default function Project({ project }) {
     <div className=" w-[350px] p-[30px] border-[1px] border-[#94a3b8] hover:scale-105 hover:border-[#914bf1] rounded-2xl transition duration-500 ease-in-out">
       <div>
         <img
-          src={`/src/assets/Projects-image/${project.image}`}
+          src={project.image}
           alt=""
           className="h-[200px] w-[330px] rounded-xl"
         />

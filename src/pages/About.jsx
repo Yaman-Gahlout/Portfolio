@@ -1,5 +1,6 @@
 import { MdLibraryBooks } from "react-icons/md";
 import { LuGraduationCap } from "react-icons/lu";
+import AboutImage from "../assets/Yaman.jpeg";
 
 export default function About() {
   return (
@@ -43,7 +44,7 @@ export default function About() {
         <div className="w-[50%] max:md:w-[100%] flex flex-col items-center max-md:justify-center max-md:items-center">
           <div className="mt-[50px] h-[225px] w-[225px] rounded-full border-[2px] border-[#914bf1] flex items-center justify-center animate-pulse">
             <img
-              src="/src/assets/Yaman.jpeg"
+              src={AboutImage}
               alt=""
               className="h-[200px] w-[200px] rounded-full"
             />
